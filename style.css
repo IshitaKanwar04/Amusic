@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Nunito:wght@600&family=Poppins:wght@600&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    font-family: 'Averia', 'Nunito', 'Poppins';
+    color: rgb(255, 255, 255);
+}
+
+nav ul{
+    display : flex;
+    list-style-type: none;
+    height : 65px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 70px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container{
+    min-height: 70vh;
+    font-family: Poppins;
+    display: flex;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    width:75%;
+    border-radius: 10px;
+    padding: 35px;
+    background-image: url('images/bg.jpg');
+
+}
+
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top:10px;
+}
+
+.icons i{
+    cursor:pointer;
+}
+
+#myProgressBar{
+    width:80vw;
+}
